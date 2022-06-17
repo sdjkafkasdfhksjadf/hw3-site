@@ -1,3 +1,11 @@
+<!--
+File: index.html
+GUI Assignment: HW3 Multiplication Table Generator
+Timothy Retelle, UMass Lowell Computer Science, timothy_retelle@student.uml.edu
+Copyright (c) 2022 by Timothy Retelle. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author. This is a small site to generate multiplication tables.
+updated on June 16th, 2022
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,36 +16,36 @@
 	<body>
 		<h1>Multiplication Table Generator</h1>
 		<h3>Enter the desired bounds, then hit the button to generate the table!</h3>
-		<form class="form-horizontal">
-			<div class="form-group">
+		<form>
+			<div>
 				<label for="topStart">Multiplicand Start</label>
 				<div>
-					<input type="number" class="form-control" id="topStart" placeholder="1">
+					<input type="number" id="topStart" placeholder="1">
 				</div>
 			</div>
-			<div class="form-group">
+			<div>
 				<label for="topEnd">Multiplicand End</label>
 				<div>
-					<input type="number" class="form-control" id="topEnd" placeholder="5">
+					<input type="number" id="topEnd" placeholder="5">
 				</div>
 			</div>
-			<div class="form-group">
+			<div>
 				<label for="sideStart">Multiplier Start</label>
 				<div>
-					<input type="number" class="form-control" id="sideStart" placeholder="1">
+					<input type="number" id="sideStart" placeholder="1">
 				</div>
 			</div>
-			<div class="form-group">
+			<div>
 				<label for="sideEnd">Multiplier End</label>
 				<div>
-					<input type="number" class="form-control" id="sideEnd" placeholder="5">
+					<input type="number" id="sideEnd" placeholder="5">
 				</div>
 			</div>
 		</form>
 		<button onClick="generate()">Go!</button>
-		<h2 id="errorMessage"></h2>
+		<h2 id="errorMessage"></h2> <!--empty h2 to place error messages into if needed-->
 		<div class="scrollbox">
-			<table id="multTable"></table>
+			<table id="multTable"></table><!--empty table for the output-->
 		</div>
 		<script src="js/script.js"></script>
 	</body>
