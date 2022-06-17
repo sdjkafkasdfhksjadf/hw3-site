@@ -1,3 +1,12 @@
+/*
+File: style.css
+GUI Assignment: HW3 Multiplication Table Generator
+Timothy Retelle, UMass Lowell Computer Science, timothy_retelle@student.uml.edu
+Copyright (c) 2022 by Timothy Retelle. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author. This is a small site to generate multiplication tables.
+updated on June 16th, 2022
+*/
+
 body {
 	background-color: black;
 	color: white;
